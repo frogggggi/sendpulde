@@ -1,0 +1,72 @@
+.sidebar
+  min-height: calc(100vh - 70px)
+  font-family: "Roboto"
+  padding: 0
+  width: 240px
+  z-index: 11
+  background: linear-gradient(180deg, #27B983 -18.15%, #91E857 266.75%)
+  box-shadow: inset -1px 0px 0px rgba(28, 175, 94, 0.1)
+  position: relative
+  .nav 
+    padding: 35px 0 0 0
+    .nav-item 
+      margin: 0 20px 3px
+      padding: 0 24px
+      width: 100%
+      font-size: 14px
+      line-height: 16px
+      .nav-link 
+        color: #ffffff
+        display: flex
+        align-items: center
+        white-space: nowrap
+        padding: 1.06rem 0
+        transition-duration: 0.45s
+      &.active
+        background: rgba(255, 255, 255, 0.15)
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.0472713)
+        border-radius: 5px
+      &:hover
+        background: rgba(255, 255, 255, 0.15)
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.0472713)
+        border-radius: 5px
+    .nav-profile
+      margin-bottom: 30px
+      padding-right: 0
+      
+      
+    &.nav-profile
+      .nav-link
+        height: auto
+        line-height: 1
+        border-top: 0
+        padding: 1.25rem 0
+    .nav-profile-text
+      margin-left: 1rem
+
+.text-secondary
+  color: rgba(0, 0, 0, 0.3)!important
+  font-size: 12px
+  line-height: 14px
+  font-weight: bold
+
+.nav-bottom
+  list-style: none
+  margin: 0 24px
+  padding: 0
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  position: absolute
+  bottom: 20px
+  .nav-item-bottom
+    padding: 3px 12px 5px
+    .nav-link-b
+      color: #147A42
+      font-size: 12px
+      line-height: 14px
+      text-decoration: none
+    &:hover
+        background: rgba(255, 255, 255, 0.15)
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.0472713)
+        border-radius: 5px
